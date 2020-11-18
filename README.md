@@ -34,6 +34,6 @@ Ambiente utilizado:
 
 O ficheiro gerado com o código fonte está na pasta: spec/features/amazon_spec.rb
 
-
+OBS: Se o teste não executar corretamente nas primeiras execuções, peço que rode novamente, pois o tempo de espera para carregamento dos componentes, que é automático da ferramenta, está causando essa instabilidade. Estou aprimorando os testes para resolver esta questão, tão logo resolvido, atualizo o código.
 
 
