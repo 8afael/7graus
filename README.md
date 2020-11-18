@@ -31,6 +31,10 @@ Importante: Ajustar login e senha para logar na Amazon, os campos estão em bran
 find(:id, "ap_email").send_keys "e-mail cadastrado"
 find(:id, "ap_password").send_keys "senha de acesso"
 
+Importante: Ajustar login e senha para logar na Amazon, os campos estão em branco no código:
+find(:id, "ap_email").send_keys "e-mail cadastrado"
+find(:id, "ap_password").send_keys "senha de acesso"
+
 Ambiente utilizado:
 - Sistema Operacional: MacOS Mojave Versão 10.14.6
 - Navegador utilizado: Chrome Versão 86.0.4240.80
