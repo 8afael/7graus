@@ -11,9 +11,9 @@ feature 'Amazon', type: :feature do
     visit '/'
     expect(page.title).to have_content('Amazon.com') #Verifica se está ná pagina correta
     find(:id, "nav-link-accountList").click
-    find(:id, "ap_email").send_keys "rafaelbrodrigues@gmail.com"
+    find(:id, "ap_email").send_keys "         "
     find(:xpath, "/html/body/div[1]/div[1]/div[2]/div/div[2]/div/div[1]/form/div/div/div/div[2]/span/span/input").click
-    find(:id, "ap_password").send_keys "3mh0X875"
+    find(:id, "ap_password").send_keys "          "
     find(:id, "signInSubmit").click #Acessa a área do usuário
     
     busca = find(:id, "twotabsearchtextbox").send_keys "presenter 8000" #Preenche a barra de busca
